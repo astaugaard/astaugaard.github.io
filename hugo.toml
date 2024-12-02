@@ -1,0 +1,60 @@
+baseURL = "https://astaugaard.xyz/"
+languageCode = "en-us"
+title = "My Blog?"
+theme = "hugo-theme-stack"
+
+[params.contact]
+email = "astaugaard@icloud.com"
+
+[params.author]
+email = "astaugaard@icloud.com"
+
+params.mainSections = "post"
+
+
+[Params.Article]
+toc = true
+ReadingTime = true
+
+[params.Article.License]
+Default = "CC-BY-4.0"
+
+[Params.Sidebar]
+emoji = "🩷"
+
+[Params.Footer]
+since = 2024
+
+[Params.colorScheme]
+default = "dark"
+
+[menu]
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+    identifier = "home"
+    [menu.main.params]
+        icon = "home"
+        newTab = true
+
+[[menu.social]]
+    name = "bsky"
+    url = "https://bsky.app/profile/totally-notacat.bsky.social"
+    [menu.social.params]
+        icon = "brand-bluesky"
+        newTab = true
+[[menu.social]]
+    name = "github"
+    url = "https://github.com/astaugaard"
+    [menu.social.params]
+        icon = "brand-github"
+        newTab = true
+
+[[menu.social]]
+    name = "rss"
+    url = "https://github.com/astaugaard"
+    [menu.social.params]
+        icon = "brand-github"
+        newTab = true
+
