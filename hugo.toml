@@ -53,8 +53,8 @@ default = "dark"
 
 [[menu.social]]
     name = "rss"
-    url = "https://github.com/astaugaard"
+    url = "/index.xml"
     [menu.social.params]
-        icon = "brand-github"
+        icon = "rss"
         newTab = true
 
